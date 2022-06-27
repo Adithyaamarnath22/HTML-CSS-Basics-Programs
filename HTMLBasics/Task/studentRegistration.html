@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form</title>
+</head>
+<body>
+
+<style type="text/css">
+th{text-align: center;
+border-top: 30px;}
+table{
+border:10px;
+padding:50px;
+text-align: top;
+background-color: skyblue;
+}
+th,tr{padding: 10px;}
+</style>
+<form>
+<table border="1" cellspacing="0" align="center" width="100%"><th colspan="9" align="center"
+                height="50" width="100%">Student Registaration Form</th>
+            <tr>
+    <th>
+    <label for="Firstname" style="display:block;text-align: left">Firstname:</label><br>
+    <input type="text" size="100" placeholder="Firstname" name="Firstname">
+       </th>
+   </tr><br><br>
+   <tr>
+       <th>
+        <label for="Middlename"style="display:block;text-align: left">Middlename:</label>
+        <input type="text" size="100" name="namebox" placeholder="Middlename"></th><br>
+  </tr><br><br>
+  <tr>
+       <th>
+        <label for="Lastname"style="display:block;text-align: left">Lastname:</label>
+        <input type="text" size="100" name="namebox" placeholder="Lastname"></th><br>
+  </tr><br><br>
+  <tr>
+       <th>
+        <label for="course"style="display:block;text-align: left">Course:</label>
+                 <select><option value="course">course</option></select>
+       </th><br><br>
+  </tr>
+  <tr>
+    <th>
+    <label for="gender"style="display:block;text-align: left">Gender:</label>
+    <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    <input type="radio" id="others" name="gender" value="others">
+    <label for="others">Others</label>
+      </th></tr><br><br>
+   <tr><th>
+    <label for="Phone"style="display:block;text-align: left">Phone:</label>
+    <input type="text" size="100" placeholder="Phone" name="mob">
+    </th></tr><br><br>
+  <tr><th>
+  <label for="address"style="display:block;text-align: left">Current Address:</label>
+    <textarea size="500" placeholder="Current Address"></textarea></th></tr>
+    <br>
+    <br>
+   <tr><th>
+    <label for="Email"style="display:block;text-align: left">Email</label>
+    <input type="text" size="100" placeholder="Email" name="Email">
+  </th></tr><br>
+   <tr><th>
+    <label for="Password"style="display:block;text-align: left">Password</label>
+    <input type="text" size="100" placeholder="Password" name="Password"></th></tr><br><br>
+    <tr><th>
+    <label for="Password"style="display:block;text-align: left">Re-type password</label>
+    <input type="text" size="100" placeholder="Retype Password" name="Password"></th></tr><br><br>
+    <tr><th colspan="10">
+    <input type="submit" value="Register" name="submit"><br><br>
+    </th></tr>
+</table>
+</form>
+</body>
+</html>

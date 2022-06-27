@@ -1,0 +1,40 @@
+.container{
+
+    padding: 30px;
+    align-content: flex-start;
+    height: 50%;
+    width: 100%;
+}
+h1{
+    color: rgb(0, 4, 7);
+    font-size: x-large;
+    border: width 2px; 
+    border-style: inset;
+}
+
+/* body{
+    background-image: url('rst4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+h2{
+    color: black;
+    text-align: center;
+    
+}
+p{
+    color: aliceblue;
+    text-align: left;
+    text-size-adjust: 50%;
+}
+
+
+    
+h3{
+    color:black;
+    text-align: center;
+}
+p{
+    color: black;
+    text-align: center;
+}
